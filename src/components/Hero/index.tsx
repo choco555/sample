@@ -2,7 +2,6 @@ import React from "react";
 import Prism from "../Prism";
 import ChatBox from "../ChatBox";
 import ShinyText from "@/components/ShinyText";
-// import FluidGlass from "../FluidGlass";
 
 const Hero: React.FC = () => {
   const handleChatSubmit = (message: string) => {
@@ -42,9 +41,6 @@ const Hero: React.FC = () => {
             speed={3}
             className='font-bold'
           />
-          {/* <FluidGlass mode="lens" lensProps={{ ior: 1.15, thickness: 2 }}>
-            Some Content
-          </FluidGlass> */}
         </div>
       </div>
 
